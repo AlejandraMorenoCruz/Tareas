@@ -1,0 +1,55 @@
+Diferencias entre for, do while y do intil
+
+For
+Es una estructura de control en programación con la que se puede indicar de antemano en número de iteraciones.
+
+do while
+Mientras la opción sea verdadera, se ejecutarán las sentencias del bloque
+
+do until
+Se ejecuta hasta que la condición sea verdadera
+
+números del 0 al 100
+
+Con for
+
+inicio
+	contador: desde var=1, hasta 101, incremento en 1
+		imprime la variable seguida de una coma
+fin
+
+Con do while
+
+inicio
+	variable = 1
+	hacer
+		imprimir variable
+		variable+1
+	mientras variable<=100
+fin
+
+Con do until
+
+inicio
+	variable=1
+	mientras variable <=100 hacer
+		imprime variable
+		variable+1
+fin
+
+Los diagramas de flujo están en PDF's
+
+_____________________________________________________________
+
+
+Candidatos a números primos
+
+inicio
+	dame un número < 100
+	declarar variable x, guardar número
+	si (x%2!=0&&x%3!=0)
+		imprime, x es candidato a primo
+	si no
+		imprime, x no es candidato a primo
+fin
+

@@ -1,0 +1,29 @@
+¿Cómo saber cuando un palabra es palíndromo?
+
+inicio
+	crear arreglo palabra
+	crear arreglo palindromo
+	solicitar palabra a revisar
+	colocar palabra a la inversa en palindromo
+	si palabra===palindromo
+		imprimir: "es palíndromo"
+	de otra manera
+		imprimir: "no es palindromo
+fin
+
+
+¿Cómo saber si un número es par o impar?
+
+inicio
+	crear variable numero
+	crear constante 2
+	solicitar numero
+	si numero módulo constante == 0
+		imprime "es par"
+	de otra manera
+		imprime "no es par"
+fin
+
+
+
+	
