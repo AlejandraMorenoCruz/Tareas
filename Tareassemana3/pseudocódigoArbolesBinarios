@@ -1,0 +1,40 @@
+Pseudocódigo árboles binarios
+
+Para un árbol binario más o menos balanceado
+
+Inicio
+  se recibe un arreglo con números
+  Tomar el primer índice y convertirlo en la raíz
+  function añadirNodo{
+    si el valor del índice siguiente es menor que la raíz{
+      ir a la izquierda
+      si ya existe un nodo{
+        añadirNodo
+      }
+      si no{
+        si valor de nodo es mayor que valor de índice{
+          agregamos el nuevo nodo a la izquierda
+        }
+        si no {
+          agregamos el nuevo nodo a la derecha
+        }
+      }
+    }
+    si no{
+      ir a la derecha
+      si ya existe un nodo{
+        añadirNodo
+      }
+      si no{
+        si valor de nodo es mayor que valor de índice{
+          agregamos el nuevo nodo a la izquierda
+        }
+        si no {
+          agregamos el nuevo nodo a la derecha
+        }
+      }
+    }
+    }
+  }
+
+Fin

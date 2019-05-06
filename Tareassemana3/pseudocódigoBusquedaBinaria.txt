@@ -1,0 +1,28 @@
+Pseudocódigo para búsqueda binaria
+
+//Éste sólo funciona si el arreglo ya está ordenado
+
+Inicio
+  Si el algoritmo ya está ordenado
+    haz
+  si no
+    ordena el arreglo
+
+  función Busca{
+    Divide el arreglo en dos
+    Sí el valor del índice es igual al número que buscamos{
+    Termina
+    }
+    si no{
+      si el número buscado es menor{
+        tomamos la mitad izquierda del arreglo
+        repetimos la función Busca
+        }
+        si no{
+        Tomamos la mitad derecha del arreglo
+        repetimos la función Busca
+        }
+    }
+
+  }
+Fin
